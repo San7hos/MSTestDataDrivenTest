@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/San7hos/MSTestDataDrivenTest</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>
+      - Initial version of MSTest DataDrivenTest
+    </releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>mstest, test, testing, tdd, bdd, unit, unit test</tags>
+  </metadata>
+</package>
