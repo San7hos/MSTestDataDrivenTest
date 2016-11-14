@@ -23,6 +23,14 @@
         /// <returns>Fluent API</returns>
         public DataDrivenTest Arrange(params object[] testCase)
         {
+            if (testCase == null)
+            {
+                this.testCaseArgumentCount = 1;
+                this.testCases.Add(new object[] { null });
+
+                return this;
+            }
+
             if (!this.testCases.Any())
             {
                 this.testCaseArgumentCount = testCase.Length;
