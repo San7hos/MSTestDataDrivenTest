@@ -1,6 +1,6 @@
 # MSTest data driven test
 
-[![NuGet version](https://badge.fury.io/nu/MSTestDataDrivenTest.svg)](https://badge.fury.io/nu/MSTestDataDrivenTest)
+[![NuGet version](https://badge.fury.io/nu/Santhos.MSTest.svg)](https://badge.fury.io/nu/Santhos.MSTest)
 
 Exposes a class that simplifies coding of data driven tests in MSTest.
 
