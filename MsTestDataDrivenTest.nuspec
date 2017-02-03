@@ -11,7 +11,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
-      - Fix bug when Arrange is given null
+      - Implement more ways to add test cases
+      - Add factory class to simplify the usage
     </releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>mstest, test, testing, tdd, bdd, unit, unit test</tags>
