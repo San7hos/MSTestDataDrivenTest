@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsTestDataDrivenTest", "MsTestDataDrivenTest.csproj", "{FA87625C-54BF-46C2-B260-2B1D57E452EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsTestDataDrivenTest", "MsTestDataDrivenTest\MsTestDataDrivenTest.csproj", "{FA87625C-54BF-46C2-B260-2B1D57E452EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5E69B7E-B8A1-40E0-8EC7-CAF2AFF055E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
