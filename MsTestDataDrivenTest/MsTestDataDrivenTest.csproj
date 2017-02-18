@@ -38,6 +38,7 @@
     <Compile Include="DataDrivenTestFactory.cs" />
     <Compile Include="DataDrivenTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestCaseAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MsTestDataDrivenTest.nuspec" />

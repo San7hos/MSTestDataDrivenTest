@@ -8,6 +8,7 @@ namespace Santhos.MSTest
 {
     using System;
     using System.Collections.Generic;
+    using System.Diagnostics;
     using System.Linq;
     using System.Reflection;
     using System.Runtime.ExceptionServices;
@@ -96,6 +97,21 @@ namespace Santhos.MSTest
         public DataDrivenTest ArrangeTestCases(IEnumerable<IEnumerable<object>> testCaseSet)
         {
             foreach (var testCase in testCaseSet)
+            {
+                this.Arrange(testCase);
+            }
+
+            return this;
+        }
+
+        public DataDrivenTest ArrangeFromAttributes()
+        {
+            IEnumerable<object[]> testCases = new StackFrame(1)
+                .GetMethod()
+                .GetCustomAttributes<TestCaseAttribute>()
+                .Select(a => a.TestCase);
+
+            foreach (object[] testCase in testCases)
             {
                 this.Arrange(testCase);
             }
