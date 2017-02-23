@@ -4,18 +4,17 @@
 // </copyright>
 
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MSTest data driven test")]
-[assembly: AssemblyDescription("MSTest extension for data driven tests")]
+[assembly: AssemblyTitle("MsTestDataDrivenTest.UnitTests")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Santhos")]
-[assembly: AssemblyProduct("MsTestDataDrivenTest")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("MsTestDataDrivenTest.UnitTests")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -25,10 +24,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("fa87625c-54bf-46c2-b260-2b1d57e452ea")]
-
-// Enable unit tests on internal stuff
-[assembly: InternalsVisibleTo("MsTestDataDrivenTest.UnitTests")]
+[assembly: Guid("91697d37-30c8-4e60-9e36-6c60a613aa3e")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -40,4 +36,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.0.0.*")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

@@ -11,8 +11,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>
-      - Implement more ways to add test cases
-      - Add factory class to simplify the usage
+      - Implement TestCase attribute
+      - Implement unit tests
+      - Rename Factory to TestData to shorten the name
+      - Fix few small bugs
     </releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>mstest, test, testing, tdd, bdd, unit, unit test</tags>

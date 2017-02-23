@@ -1,8 +1,7 @@
-﻿//-------------------------------------------------------------------------------------
-//<copyright file="DataDrivenTest.cs" company="Santhos.net">
-//     Copyright(c) Santhos.net | All rights reserved
-//</copyright>
-//-------------------------------------------------------------------------------------
+﻿// <copyright file="TestCaseAttribute.cs" company="Santhos.net">
+// Copyright (c) Santhos.net. All rights reserved.
+// Licensed under the MIT license. See LICENSE file in the project root for full license information.
+// </copyright>
 
 namespace Santhos.MSTest
 {
